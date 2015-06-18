@@ -1,8 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## A cache object is created with makeCachematrix and then inserted into cache.
+## The cacheSolve function create a new cache from input. If the cache object already exist, it returns
+## existing cache. 
 
-## Write a short comment describing this function
-## This function return an object with a matrix as input. The return object is then
+## This function return a cache object with a matrix as input. The return cache object is then
 ## used to perform set/get operation on matrix, e.g. bv<- makeCacheMatrix(k).
 ## It create a matrix inverse via setinverse() with solve(x) function.
 ## It returns the inverse , e.g. bv$getinverse(). 
